@@ -1,0 +1,27 @@
+{
+  "name": "IMYFeedback",
+  "version": "1.0",
+  "summary": "IMYFeedback",
+  "description": "IMYFeedback_Description, IMY 开头的库请用 本地目录来导入",
+  // "homepage": "https://github.com/meiyoudev/IMYFeedback",
+  "license": "MIT",
+  "authors": {
+    "Ivan": "dcty@qq.com"
+  },
+  "source": {
+    "git": "git@192.168.0.234:ioslib.git"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source_files": [
+    "IMYFeedback/IMYFeedback/IMYFeedback/*.{h,m}"
+  ],
+  // "resources": ["IMY_ViewKit/IMY_ViewKit/IMY_ViewKit/*.{json,png,jpg,gif}","IMY_ViewKit/IMY_ViewKit/IMY_ViewKit/*/*.{json,png,jpg,gif}"],
+  "requires_arc": true,
+  "dependencies": {
+    "YYJSONHelper":[],
+    "SZTextView":[],
+    "TPKeyboardAvoiding":[]
+  }
+}

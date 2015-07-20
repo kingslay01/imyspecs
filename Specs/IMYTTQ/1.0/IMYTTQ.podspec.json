@@ -1,0 +1,48 @@
+{
+  "name": "IMYTTQ",
+  "version": "1.0.2",
+  "summary": "IMYTTQ",
+  "description": "IMYTTQ, 美柚她她圈",
+  "homepage": "http://www.meiyou.com",
+  "license": "MIT",
+  "authors": {
+    "haha": "xxx@qq.com"
+  },
+  "source": {
+    "git": "git@192.168.0.234:ioslib.git"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source_files": [
+    "IMYTTQ/IMYTTQ/source/*.{h,m}",
+    "IMYTTQ/IMYTTQ/source/*/*.{h,m}",
+    "IMYTTQ/IMYTTQ/source/*/*/*.{h,m}",
+    "IMYTTQ/IMYTTQ/source/*/*/*/*.{h,m}"
+  ],
+  "resources": [
+    "IMYTTQ/Resource/*.{xib,json,png,jpg,gif,js}",
+    "IMYTTQ/Resource/*/*.{xib,json,png,jpg,gif,js,eot,svg,ttf,woff}",
+    "IMYTTQ/IMYTTQ/source/*.{xib,json,png,jpg,gif,js}",
+    "IMYTTQ/IMYTTQ/source/*/*.{xib,json,png,jpg,gif,js}",
+    "IMYTTQ/IMYTTQ/source/*/*/*.{xib,json,png,jpg,gif,js}",
+    "IMYTTQ/IMYTTQ/source/*/*/*/*.{xib,json,png,jpg,gif,js}"
+  ],
+  "prefix_header_file": "IMYTTQ/IMYTTQ/TTQ-Prefix.pch",
+ "requires_arc": true,
+  "dependencies": {
+	"ReactiveCocoa":[], 
+	"ReactiveViewModel":[],
+	"RSSwizzle":[],
+	"KDCycleBannerView":[],
+	"UITableView+FDTemplateLayoutCell":[],
+	"SZTextView":[],
+	"SWTableViewCell":[],
+	"TTTAttributedLabel":[],
+	"RTLabel":[],
+	"GCDObjC":[],	
+	"Masonry": [],
+	"BlocksKit":[],
+	"YYJSONHelper":[]
+  }
+}

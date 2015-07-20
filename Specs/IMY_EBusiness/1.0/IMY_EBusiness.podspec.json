@@ -1,0 +1,33 @@
+{
+  "name": "IMY_EBusiness",
+  "version": "1.0",
+  "summary": "IMY_EBusiness",
+  "description": "IMY_EBusiness, 美柚电商",
+  "homepage": "http://www.meiyou.com",
+  "license": "MIT",
+  "authors": {
+    "haha": "xxx@qq.com"
+  },
+  "source": {
+    "git": "git@192.168.0.234:ioslib.git"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source_files": [
+    "IMY_EBusiness/IMY_EBusiness/Classes/*.{h,m}",
+    "IMY_EBusiness/IMY_EBusiness/Classes/*/*.{h,m}",
+    "IMY_EBusiness/IMY_EBusiness/Classes/*/*/*.{h,m}",
+    "IMY_EBusiness/IMY_EBusiness/Classes/*/*/*/*.{h,m}"
+  ],
+  "resources": [
+    "IMY_EBusiness/IMY_EBusiness/Resources/*.{xib,json,png,jpg,gif,js}",
+    "IMY_EBusiness/IMY_EBusiness/Classes/*.{xib,json,png,jpg,gif,js}",
+    "IMY_EBusiness/IMY_EBusiness/Classes/*/*.{xib,json,png,jpg,gif,js}",
+    "IMY_EBusiness/IMY_EBusiness/Classes/*/*/*.{xib,json,png,jpg,gif,js}",
+    "IMY_EBusiness/IMY_EBusiness/Classes/*/*/*/*.{xib,json,png,jpg,gif,js}"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+  }
+}

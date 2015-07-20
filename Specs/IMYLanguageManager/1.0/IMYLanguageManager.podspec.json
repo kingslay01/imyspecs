@@ -1,0 +1,13 @@
+{
+  "name": "IMYLanguageManager",
+  "version": "1.0.1.1",
+  "summary": "多语言",
+  "description": "多语言",
+  "homepage": "https://github.com/meiyoudev/IMYLanguageManager",
+  "license": "MIT",
+  "authors": {"Ivan": "dcty@qq.com"},
+  "source": {"git": "git@192.168.0.234:ioslib.git"},
+  "platforms": {"ios": "6.0"},
+  "source_files": "IMYLanguageManager/IMYLanguageManager/source/LanguagesManager/*.{h,m}",
+  "requires_arc": true
+}
