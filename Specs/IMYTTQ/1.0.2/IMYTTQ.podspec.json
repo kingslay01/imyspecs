@@ -43,6 +43,12 @@
 	"GCDObjC":[],	
 	"Masonry": [],
 	"BlocksKit":[],
-	"YYJSONHelper":[]
+	"YYJSONHelper":[],
+	"IMYLanguageManager":[],
+	"IMY_SDWebImage_Wrapper":[],
+	"IMYHTTP":[],
+	"IMY_ViewKit":[],
+	"IMY_RichText":[]
+
   }
 }

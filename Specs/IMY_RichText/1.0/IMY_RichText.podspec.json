@@ -15,7 +15,7 @@
   "dependencies": {
     "HPGrowingTextView": [">= 1.1"],
     "StyledPageControl": [">= 1.0"],
-    "IMY_Theme": [],
+    "IMYTheme": [],
     "ObjcAssociatedObjectHelpers": [],
     "IMY_SDWebImage_Wrapper": [],
     "YLGIFImage": [],
