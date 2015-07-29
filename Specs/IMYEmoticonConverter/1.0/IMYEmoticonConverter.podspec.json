@@ -12,6 +12,7 @@
   "resources": [],
   "requires_arc": true,
   "dependencies": {
+    "ZipArchive":[]
   },
    "frameworks": [
   ]

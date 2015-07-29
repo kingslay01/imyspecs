@@ -1,0 +1,26 @@
+{
+  "name": "IMYIndividuation",
+  "version": "1.0",
+  "summary": "IMYIndividuation 个性化模块",
+  "description": "个性化模块",
+  "homepage": "https://github.com/meiyoudev",
+  "license": "MIT",
+  "authors": {"ffb": "xxx@qq.com"},
+  "source": {"git": "git@192.168.0.234:ioslib.git"},
+  "platforms": {"ios": "6.0"},
+  "source_files": ["IMYIndividuation/IMYIndividuation/Class/*.{h,m,xib}"],
+  "resources": ["IMYIndividuation/IMYIndividuation/Resources/*/*.png"],
+  "requires_arc": true,
+  "dependencies": {
+    "LKDBHelper":[],
+    "YYJSONHelper":[],
+    "YLGIFImage":[],
+    "IMYLanguageManager":[],
+    "IMY_SDWebImage_Wrapper":[],
+    "IMYHTTP":[],
+    "IMY_ViewKit":[],
+    "IMYEmoticonConverter":[],
+  },
+   "frameworks": [
+  ]
+}
