@@ -8,9 +8,8 @@
   "authors": {"Ivan": "dcty@qq.com"},
   "source": {"git": "git@192.168.0.234:ioslib.git"},
   "platforms": {"ios": "6.0"},
-  "source_files": ["IMY_RichText/IMY_RichText/RichTextSupport/*.{h,m}","IMY_RichText/IMY_RichText/RichTextSupport/Emoticon/*.{h,m}"
-                  ,"IMY_RichText/IMY_RichText/RichTextSupport/Emoticon/IMYEasyInputView/*.{h,m}"],
-  "resources": ["IMY_RichText/IMY_RichText/RichTextSupport/Emoticon/*.bundle","IMY_RichText/IMY_RichText/RichTextSupport/Emoticon/*/*.png"],
+  "source_files": ["IMY_RichText/IMY_RichText/RichTextSupport/*.{h,m,xib}"],
+  "resources": ["IMY_RichText/IMY_RichText/RichTextSupport/*.bundle","IMY_RichText/IMY_RichText/RichTextSupport/Resource/*/*.png"],
   "requires_arc": true,
   "dependencies": {
     "HPGrowingTextView": [">= 1.1"],
